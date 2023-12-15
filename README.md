@@ -8,6 +8,7 @@
 - [Usage](#Usage)
 - [Tests](#Tests)
 - [Questions](#Questions)
+- [Links](#Links)
 
 ##Description
 
@@ -34,3 +35,7 @@ After running the command "node index.js" follow the prompts and look at the res
 Additional questions?
 You can find me [HERE](https://github.com/MacroWil) on GitHub.
 Or, you can email me at macrow.co@gmail.com.
+
+##Links
+
+Link to YouTube video walkthrough [HERE](https://www.youtube.com/watch?v=OlKQOsCZVZ0)
