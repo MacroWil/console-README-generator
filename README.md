@@ -23,7 +23,7 @@ Maguire Wilson, and thanks to Gachoi06 for starter code on GitHub.
 
 ##Usage
 
-In terminal run the command node "index.js", and follow the prompts to generate your readme!
+In terminal run the command "node index.js", and follow the prompts to generate your readme!
 
 ##Tests
 
