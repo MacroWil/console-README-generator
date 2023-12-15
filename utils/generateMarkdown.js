@@ -42,7 +42,7 @@ function renderLicenseSection(license) {
   let licenseSection = "";
 
   if (license != "None") {
-    licenseSection += `##License\n\n`;
+    licenseSection += `## License\n\n`;
     licenseSection += `See ${renderLicenseLink(
       license
     )} for more information about licensing.\n\n`;
@@ -69,29 +69,29 @@ function generateMarkdown(data) {
   readme += "## Table of Contents\n\n";
   for (const section of sections) {
     if (!(section === "License" && data.license === "None")) {
-      readme += `- [${section}](#${section})\n`;
+      readme += `- [${section}](#${section.toLowerCase()})\n`;
     }
   }
   readme += "\n";
   //description
-  readme += `##${sections[0]}\n\n`;
+  readme += `## ${sections[0]}\n\n`;
   readme += `${data.desc}\n\n`;
   //installation
-  readme += `##${sections[1]}\n\n`;
+  readme += `## ${sections[1]}\n\n`;
   readme += `${data.install}\n\n`;
   //contributors
-  readme += `##${sections[2]}\n\n`;
+  readme += `## ${sections[2]}\n\n`;
   readme += `${data.contribute}\n\n`;
   //usage
-  readme += `##${sections[3]}\n\n`;
+  readme += `## ${sections[3]}\n\n`;
   readme += `${data.usage}\n\n`;
   //tests
-  readme += `##${sections[4]}\n\n`;
+  readme += `## ${sections[4]}\n\n`;
   readme += `${data.test}\n\n`;
   //license
   readme += `${renderLicenseSection(data.license)}\n`;
   //questions
-  readme += `##${sections[6]}\n\n`;
+  readme += `## ${sections[6]}\n\n`;
   readme += `Additional questions?\nYou can find me [HERE](https://github.com/${data.username}) on GitHub.\nOr, you can email me at ${data.email}.\n\n`;
 
   return readme;
