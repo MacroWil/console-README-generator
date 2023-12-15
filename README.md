@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-- [Description](#Description)
-- [Installation](#Installation)
-- [Contributing](#Contributing)
-- [Usage](#Usage)
-- [Tests](#Tests)
-- [Questions](#Questions)
-- [Links](#Links)
+- [Description](#description)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Links](#links)
 
 ##Description
 
