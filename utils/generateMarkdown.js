@@ -22,7 +22,7 @@ function generateMarkdown(data) {
     "Questions",
   ];
   //title
-  let readme = `# ${data.title}\n`;
+  let readme = `# ${data.title}\n\n`;
   //table of contents
   readme += "## Table of Contents\n\n";
   for (const section of sections) {
@@ -49,7 +49,7 @@ function generateMarkdown(data) {
   readme += `${data.license}\n\n`;
   //questions
   readme += `##${sections[6]}\n\n`;
-  readme += `Additional questions?\nYou can find me [HERE](https://github.com/${data.username}" on GitHub.\nOr, you can email me at ${data.email}.\n\n`;
+  readme += `Additional questions?\nYou can find me [HERE](https://github.com/${data.username}) on GitHub.\nOr, you can email me at ${data.email}.\n\n`;
 
   return readme;
 }
