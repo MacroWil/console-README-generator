@@ -15,7 +15,7 @@ This is a script to assist in the writing of proffesional README.md files
 
 ##Installation
 
-Clone the code to an empty file from the GitHub page, in terminal run the command "npm i inquirer@6.3.1". Be sure to have Node.js installed on your machine.
+Clone the code to an empty file from the GitHub page, in terminal run the command "npm i inquirer@8.2.4". Be sure to have Node.js installed on your machine.
 
 ##Contributing
 
